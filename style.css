@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: black;
+}
+.logo{
+color: white;
+
+}
+
+.nav{
+    overflow: hidden;
+
+    
+
+}
+/*Formatação da hiperligação/ nav*/
+.nav a{
+    color: white;
+    float: right;
+    display: block; /* foi colocado porque a margin não estava a funcionar*/
+   /* margin-top: 15px;  se deixar essa margin ativada, vai dificultar o preenchimento do meu hover*/
+    padding-left: 28px;
+    padding-right: 28px;
+  margin-bottom: 25px;
+    
+    
+
+}
+div.gallery {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 23%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
